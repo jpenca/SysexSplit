@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F98621185F27E7009B5DB5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F98620185F27E7009B5DB5 /* Cocoa.framework */; };
+		36F9862B185F27E7009B5DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36F98629185F27E7009B5DB5 /* InfoPlist.strings */; };
+		36F9862D185F27E7009B5DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F9862C185F27E7009B5DB5 /* main.m */; };
+		36F98631185F27E7009B5DB5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 36F9862F185F27E7009B5DB5 /* Credits.rtf */; };
+		36F98634185F27E7009B5DB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F98633185F27E7009B5DB5 /* AppDelegate.m */; };
+		36F98637185F27E7009B5DB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F98635185F27E7009B5DB5 /* MainMenu.xib */; };
+		36F98639185F27E7009B5DB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F98638185F27E7009B5DB5 /* Images.xcassets */; };
+		36F98640185F27E7009B5DB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F9863F185F27E7009B5DB5 /* XCTest.framework */; };
+		36F98641185F27E7009B5DB5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F98620185F27E7009B5DB5 /* Cocoa.framework */; };
+		36F98649185F27E7009B5DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36F98647185F27E7009B5DB5 /* InfoPlist.strings */; };
+		36F9864B185F27E7009B5DB5 /* Sysex_SplitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F9864A185F27E7009B5DB5 /* Sysex_SplitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36F98642185F27E7009B5DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36F98615185F27E7009B5DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F9861C185F27E7009B5DB5;
+			remoteInfo = "Sysex Split";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36F9861D185F27E7009B5DB5 /* Sysex Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sysex Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F98620185F27E7009B5DB5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		36F98623185F27E7009B5DB5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		36F98624185F27E7009B5DB5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36F98625185F27E7009B5DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36F98628185F27E7009B5DB5 /* Sysex Split-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sysex Split-Info.plist"; sourceTree = "<group>"; };
+		36F9862A185F27E7009B5DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36F9862C185F27E7009B5DB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36F9862E185F27E7009B5DB5 /* Sysex Split-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sysex Split-Prefix.pch"; sourceTree = "<group>"; };
+		36F98630185F27E7009B5DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		36F98632185F27E7009B5DB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36F98633185F27E7009B5DB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36F98636185F27E7009B5DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		36F98638185F27E7009B5DB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36F9863E185F27E7009B5DB5 /* Sysex SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sysex SplitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F9863F185F27E7009B5DB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36F98646185F27E7009B5DB5 /* Sysex SplitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sysex SplitTests-Info.plist"; sourceTree = "<group>"; };
+		36F98648185F27E7009B5DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36F9864A185F27E7009B5DB5 /* Sysex_SplitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sysex_SplitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F9861A185F27E7009B5DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F98621185F27E7009B5DB5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F9863B185F27E7009B5DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F98641185F27E7009B5DB5 /* Cocoa.framework in Frameworks */,
+				36F98640185F27E7009B5DB5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F98614185F27E7009B5DB5 = {
+			isa = PBXGroup;
+			children = (
+				36F98626185F27E7009B5DB5 /* Sysex Split */,
+				36F98644185F27E7009B5DB5 /* Sysex SplitTests */,
+				36F9861F185F27E7009B5DB5 /* Frameworks */,
+				36F9861E185F27E7009B5DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36F9861E185F27E7009B5DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36F9861D185F27E7009B5DB5 /* Sysex Split.app */,
+				36F9863E185F27E7009B5DB5 /* Sysex SplitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F9861F185F27E7009B5DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F98620185F27E7009B5DB5 /* Cocoa.framework */,
+				36F9863F185F27E7009B5DB5 /* XCTest.framework */,
+				36F98622185F27E7009B5DB5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36F98622185F27E7009B5DB5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F98623185F27E7009B5DB5 /* AppKit.framework */,
+				36F98624185F27E7009B5DB5 /* CoreData.framework */,
+				36F98625185F27E7009B5DB5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		36F98626185F27E7009B5DB5 /* Sysex Split */ = {
+			isa = PBXGroup;
+			children = (
+				36F98632185F27E7009B5DB5 /* AppDelegate.h */,
+				36F98633185F27E7009B5DB5 /* AppDelegate.m */,
+				36F98635185F27E7009B5DB5 /* MainMenu.xib */,
+				36F98638185F27E7009B5DB5 /* Images.xcassets */,
+				36F98627185F27E7009B5DB5 /* Supporting Files */,
+			);
+			path = "Sysex Split";
+			sourceTree = "<group>";
+		};
+		36F98627185F27E7009B5DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F98628185F27E7009B5DB5 /* Sysex Split-Info.plist */,
+				36F98629185F27E7009B5DB5 /* InfoPlist.strings */,
+				36F9862C185F27E7009B5DB5 /* main.m */,
+				36F9862E185F27E7009B5DB5 /* Sysex Split-Prefix.pch */,
+				36F9862F185F27E7009B5DB5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36F98644185F27E7009B5DB5 /* Sysex SplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				36F9864A185F27E7009B5DB5 /* Sysex_SplitTests.m */,
+				36F98645185F27E7009B5DB5 /* Supporting Files */,
+			);
+			path = "Sysex SplitTests";
+			sourceTree = "<group>";
+		};
+		36F98645185F27E7009B5DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F98646185F27E7009B5DB5 /* Sysex SplitTests-Info.plist */,
+				36F98647185F27E7009B5DB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36F9861C185F27E7009B5DB5 /* Sysex Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F9864E185F27E7009B5DB5 /* Build configuration list for PBXNativeTarget "Sysex Split" */;
+			buildPhases = (
+				36F98619185F27E7009B5DB5 /* Sources */,
+				36F9861A185F27E7009B5DB5 /* Frameworks */,
+				36F9861B185F27E7009B5DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sysex Split";
+			productName = "Sysex Split";
+			productReference = 36F9861D185F27E7009B5DB5 /* Sysex Split.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36F9863D185F27E7009B5DB5 /* Sysex SplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F98651185F27E7009B5DB5 /* Build configuration list for PBXNativeTarget "Sysex SplitTests" */;
+			buildPhases = (
+				36F9863A185F27E7009B5DB5 /* Sources */,
+				36F9863B185F27E7009B5DB5 /* Frameworks */,
+				36F9863C185F27E7009B5DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F98643185F27E7009B5DB5 /* PBXTargetDependency */,
+			);
+			name = "Sysex SplitTests";
+			productName = "Sysex SplitTests";
+			productReference = 36F9863E185F27E7009B5DB5 /* Sysex SplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36F98615185F27E7009B5DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jakob Penca";
+				TargetAttributes = {
+					36F9863D185F27E7009B5DB5 = {
+						TestTargetID = 36F9861C185F27E7009B5DB5;
+					};
+				};
+			};
+			buildConfigurationList = 36F98618185F27E7009B5DB5 /* Build configuration list for PBXProject "Sysex Split" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36F98614185F27E7009B5DB5;
+			productRefGroup = 36F9861E185F27E7009B5DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F9861C185F27E7009B5DB5 /* Sysex Split */,
+				36F9863D185F27E7009B5DB5 /* Sysex SplitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36F9861B185F27E7009B5DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F9862B185F27E7009B5DB5 /* InfoPlist.strings in Resources */,
+				36F98639185F27E7009B5DB5 /* Images.xcassets in Resources */,
+				36F98631185F27E7009B5DB5 /* Credits.rtf in Resources */,
+				36F98637185F27E7009B5DB5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F9863C185F27E7009B5DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F98649185F27E7009B5DB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F98619185F27E7009B5DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F98634185F27E7009B5DB5 /* AppDelegate.m in Sources */,
+				36F9862D185F27E7009B5DB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F9863A185F27E7009B5DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F9864B185F27E7009B5DB5 /* Sysex_SplitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36F98643185F27E7009B5DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36F9861C185F27E7009B5DB5 /* Sysex Split */;
+			targetProxy = 36F98642185F27E7009B5DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36F98629185F27E7009B5DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F9862A185F27E7009B5DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36F9862F185F27E7009B5DB5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F98630185F27E7009B5DB5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		36F98635185F27E7009B5DB5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F98636185F27E7009B5DB5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		36F98647185F27E7009B5DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F98648185F27E7009B5DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36F9864C185F27E7009B5DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36F9864D185F27E7009B5DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36F9864F185F27E7009B5DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sysex Split/Sysex Split-Prefix.pch";
+				INFOPLIST_FILE = "Sysex Split/Sysex Split-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36F98650185F27E7009B5DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sysex Split/Sysex Split-Prefix.pch";
+				INFOPLIST_FILE = "Sysex Split/Sysex Split-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36F98652185F27E7009B5DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sysex Split.app/Contents/MacOS/Sysex Split";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sysex Split/Sysex Split-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sysex SplitTests/Sysex SplitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36F98653185F27E7009B5DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sysex Split.app/Contents/MacOS/Sysex Split";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sysex Split/Sysex Split-Prefix.pch";
+				INFOPLIST_FILE = "Sysex SplitTests/Sysex SplitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F98618185F27E7009B5DB5 /* Build configuration list for PBXProject "Sysex Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F9864C185F27E7009B5DB5 /* Debug */,
+				36F9864D185F27E7009B5DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F9864E185F27E7009B5DB5 /* Build configuration list for PBXNativeTarget "Sysex Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F9864F185F27E7009B5DB5 /* Debug */,
+				36F98650185F27E7009B5DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36F98651185F27E7009B5DB5 /* Build configuration list for PBXNativeTarget "Sysex SplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F98652185F27E7009B5DB5 /* Debug */,
+				36F98653185F27E7009B5DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36F98615185F27E7009B5DB5 /* Project object */;
+}
